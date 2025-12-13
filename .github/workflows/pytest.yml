@@ -6,9 +6,10 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: clone repository
-        run: |
-          git clone https://github.com/albert157255/github-action-python
-          cd github-action-python
+        uses: actions/checkout@v3
+        #run: |
+        #  git clone https://github.com/albert157255/github-action-python
+        #  cd github-action-python
 
       - name: Install pytest
         run: pip install pytest
