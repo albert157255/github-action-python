@@ -1,14 +1,14 @@
 # TEST
 
 # git 
-   ```bash
+    ```bash
     git add -A
     git commit -m '20251213-001-modify -README'
     git push
 
     git tag -a tag-20251213-001-modify-README -m "20251213-001-modify -README"
     git push origin tag-20251213-001-modify-README
-    
+    ```
 
 # Setup Project
   - (Recommended) Install Python 3.12.x (We use 3.12.8) from the official Python website and create virtual environment
@@ -27,11 +27,11 @@
     # On windows
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
     ./venv/Scripts/activate.bat
-
+    ```
   - (Required) Install the required libraries
     ```bash
     pip install -r requirements.txt
-
+    ```
 # github vailable Images
 :::success
 github vailable Images. 
