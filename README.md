@@ -3,7 +3,24 @@
 - Peng Xiao
 - Senior Cloud DevOps Engineer 麥兜搞IT
 ## 1. GitHub Actions建構塊和元件
-  ### github vailable Images
+  ### 1. GitHub Actions是什麼？
+
+  ### 2. GitHub Actions Components
+
+  ### 3. 影片播放器設置
+
+  ### 4. 創建我們第一個Github Actions
+
+  ### 5. GitHub Action Runners
+
+  ### 6. Jobs的串列與平行
+
+  ### 7. 一起做一個練習
+
+  ### 8. 使用Actions
+
+  ### 9. GitHub Actions Context
+    - **github vailable Images**
     :::success
     github vailable Images. 
     :::
@@ -15,7 +32,7 @@
     |**Windows Server 2025** | windows-latest or windows-2025 | windows-2025	       | <input type="checkbox" enable/> :+1: <input   type="checkbox" enable/> :heavy_minus_sign: <input   type="checkbox" enable/> :-1:  	|
     |**Windows Server 2022** | windows-2022  	              | windows-2022     	   | <input type="checkbox" enable/> :+1: <input   type="checkbox" enable/> :heavy_minus_sign: <input   type="checkbox" enable/> :-1:  	|
       
-  ### **github context**
+    - **github context**
     https://docs.github.com/en/actions/reference/workflows-and-actions/contexts#context-availability
 
 ## 2. 如何建構和編排簡單和複雜的workflow
@@ -28,22 +45,33 @@
   ### 13. Pull Request Events
 
   ### 14. Schedule Events
+    資源:
+      - https://crontab.guru/
 
   ### 15. Cancel and skip Workflows
 
 ## 3. 如何將workflow連接到事件並配置事件詳細信息
   ### 16. 示範專案準備
+    資源:
+    - python-sha256-(16. 示範專案準備).zip
 
   ### 17. 準備GitHub Workflow
 
   ### 18. Upload Job Artifacts
+    資源:
+    - https://github.com/marketplace/actions/upload-a-build-artifact
+
 
   ### 19. Upload Job Artifacts補充
 
   ### 20. Download Artifacts in Workflow
+    資源:
+    - https://github.com/marketplace/actions/download-a-build-artifact
 
 ## 4. 如何有條件地運行workflow或steps
   ### 21. GitHub Action Default Environment Variables
+   資源:
+   - https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-variables#default-environment-variables
 
   ### 22. 在Workflow中定義和使用Environment Variables
 
@@ -54,13 +82,20 @@
   ### 25. 什麼是Environment？
 
   ### 26. 一個Project Demo
+    資源:
+    - https://www.youtube.com/watch?v=L6LcW22CB6A&list=PLfQqWeOCIH4CGhmL--Te6idRngw5TrJVS
+    - https://github.com/oh-my-docker/net-box
 
 ## 5. 如何管理環境變數和密碼
   ### 27. 本章介紹
 
   ### 28. 示範專案準備
+   資源:
+   - python-pytest-github-action-(28. 示範專案準備).zip
 
   ### 29. Job的依賴關係
+    資源:
+    - https://www.youtube.com/playlist?list=PLfQqWeOCIH4CGhmL--Te6idRngw5TrJVS
 
   ### 30. Job狀態檢查
 
@@ -78,6 +113,8 @@
   ### 36. 本章介紹
 
   ### 37. 本章專案準備
+    資源:
+    - fastapi-mongodb-demo-(37. 本章專案準備).zip
 
   ### 38. 在runner直接使用Docker指令
 
@@ -89,6 +126,8 @@
   ### 41. 本章介紹
 
   ### 42. 環境準備
+    資源:
+    - fastapi-mongodb-demo-(42. 環境準備).zip
 
   ### 43. 建立一個本地composite actions
 
@@ -99,7 +138,9 @@
   ### 46. Docker container actions
 
   ### 47. Create JavaScript Actions
-
+    資源:
+    - javascript-actions-master-(47. Create JavaScript Actions).zip
+    - https://docs.github.com/en/actions/tutorials/create-actions/create-a-javascript-action
 # Project GIT 
   ```bash
   git add -A
