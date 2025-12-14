@@ -5,6 +5,8 @@ jobs:
   pytest:
     runs-on: ubuntu-24.04
     steps:
+      - name: print github action context
+        run: echo ${{ github.repositoryUrl }}
       - name: pre - checkout
         run: |
           pwd
